@@ -5,26 +5,62 @@ img{
 /**************************************/
 /************* NAV ********************/
 
-@media (max-device-width:500px){
+@media (max-device-width:342px){
 
 nav{
   overflow:hidden;
   color:white;
-  background-color:#AA7ECD;
+  background-color:#5EA2C5;
   margin-bottom:5%;
 }
 
 nav .logo{
-  float:left;
-  width:35%;
+  width:50%;
+  margin:0 auto;
   padding:1%;
-  padding-left:10%;
 }
 
 nav ul{
-  float:left;
+  width:70%;
+  margin:0 auto;
+  padding:5%;
+}
+
+nav ul li{
+  display:inline;
+  padding:5%;
+  font-family:'Roboto Slab', serif;
+  font-size:1.2em;
+  text-transform:uppercase;
+}
+
+nav ul li a{
+  text-decoration:none;
+  color:white;
+}
+
+}
+
+
+@media (min-device-width:342px){
+
+nav{
+  overflow:hidden;
+  color:white;
+  background-color:#5EA2C5;
+  margin-bottom:5%;
+}
+
+nav .logo{
   width:50%;
-  padding:4% 10%;
+  margin:0 auto;
+  padding:1%;
+}
+
+nav ul{
+  width:50%;
+  margin:0 auto;
+  padding:5%;
 }
 
 nav ul li{
@@ -48,22 +84,22 @@ nav ul li a{
 nav{
   overflow:hidden;
   color:white;
-  background-color:#AA7ECD;
+  background-color:#5EA2C5;
   margin-bottom:5%;
 }
 
 nav .logo{
-  float:left;
-  width:35%;
+  width:30%;
+  margin:0 auto;
   padding:1%;
-  padding-left:10%;
 }
 
 nav ul{
-  float:left;
   width:35%;
-  padding:4% 10%;
+  margin:0 auto;
+  padding:5%;
 }
+
 
 nav ul li{
   display:inline;
@@ -79,6 +115,44 @@ nav ul li a{
 }
 
 }
+
+@media (min-device-width:688px){
+
+nav{
+  overflow:hidden;
+  color:white;
+  background-color:#5EA2C5;
+  margin-bottom:5%;
+}
+
+nav .logo{
+  width:30%;
+  margin:0 auto;
+  padding:1%;
+}
+
+nav ul{
+  width:25%;
+  margin:0 auto;
+  padding:5%;
+}
+
+
+nav ul li{
+  display:inline;
+  padding:5%;
+  font-family:'Roboto Slab', serif;
+  font-size:1.2em;
+  text-transform:uppercase;
+}
+
+nav ul li a{
+  text-decoration:none;
+  color:white;
+}
+
+}
+
 
 
 @media (min-width:1028px){
@@ -147,7 +221,7 @@ section.above{
 }
 
 section.above .left-side{
-  width:80%;
+  width:90%;
   margin:0 auto;
 }
 
