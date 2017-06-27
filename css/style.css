@@ -599,7 +599,7 @@ section.bg {
 @media (max-width:900px){
 
 section.call-to-action h2{
-  width:80%;
+  width:90%;
   margin:0 auto;
   text-align:center;
   font-size:1.5em;
@@ -644,7 +644,7 @@ section.call-to-action .button a .button-press{
 @media (min-width:900px){
 
 section.call-to-action h2{
-  width:70%;
+  width:80%;
   margin:0 auto;
   text-align:center;
   font-size:1.5em;
@@ -689,7 +689,7 @@ section.call-to-action .button a .button-press{
 @media (min-width:1100px){
 
 section.call-to-action h2{
-  width:50%;
+  width:70%;
   margin:0 auto;
   text-align:center;
   font-size:1.5em;
@@ -1230,13 +1230,15 @@ footer{
 }
 
 footer .container{
-  width:90%;
+  width:50%;
   margin:0 auto;
   padding:2%;
+  overflow:hidden;
 }
 
 footer ul{
   padding:0 5%;
+  padding-left:30%;
   margin:0 auto;
 }
 
@@ -1247,7 +1249,7 @@ footer ul li{
 }
 
 footer .column{
-  width:30%;
+  width:50%;
   float:left;
 }
 
@@ -1256,9 +1258,6 @@ footer .column a{
   color:black;
 }
 
-footer .column ul{
-  padding-left:40%;
-}
 
 
 /***************************************/
