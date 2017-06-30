@@ -1576,6 +1576,14 @@ background:white;
   margin: 20px auto;
   font-family:'Roboto Slab', sans-serif;
 }
+
+.mypopup .form-container form .button-press{
+  width:80%;
+  margin:3% auto;
+  font-size:0.8em;
+  text-transform:uppercase;
+  letter-spacing: 2px;
+}
 }
 
 
