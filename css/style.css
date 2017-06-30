@@ -449,7 +449,7 @@ section.article .button a .button-press{
 @media (max-width:500px){
 
   section.article{
-    width:60%;
+    width:80%;
     margin:5% auto;
     font-family:'Roboto slab', serif;
     text-align:center;
