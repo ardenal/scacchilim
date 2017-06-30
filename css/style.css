@@ -287,7 +287,8 @@ section.above .left-side h3{
   line-height:25px;
 }
 
-section.above .left-side .button{
+section.above .left-side .button,
+section.article .button{
   width:80%;
   margin:0 auto;
   text-align:center;
@@ -295,13 +296,15 @@ section.above .left-side .button{
   padding:5%;
 }
 
-section.above .left-side .button a{
+section.above .left-side .button a,
+section.article .button a{
   text-decoration:none;
   color:black;
 }
 
 section.above .left-side .button a .button-press,
-.mypopup .form-container a .button-press{
+.mypopup .form-container a .button-press,
+section.article .button a .button-press{
   -moz-border-radius: 13;
   color: #ffffff;
   background: #00b400;
@@ -337,6 +340,12 @@ section.above .right-side{
 
 }
 
+section.above .right-side .twelve-percent{
+  width:60%;
+  margin:20%;
+  border-radius:50%;
+}
+
 section.above .left-side h2{
   font-size:1.8em;
   font-weight:bold;
@@ -356,7 +365,18 @@ section.above .left-side h3{
   line-height:25px;
 }
 
-section.above .left-side .button{
+section.above .left-side p{
+  font-size:1.2em;
+  width:90%;
+  margin:0 auto;
+  text-align:left;
+  padding:2%;
+  line-height:25px;
+
+}
+
+section.above .left-side .button,
+section.article .button{
   width:60%;
   margin:0 auto;
   text-align:center;
@@ -364,13 +384,15 @@ section.above .left-side .button{
   padding:5%;
 }
 
-section.above .left-side .button a{
+section.above .left-side .button a,
+section.article .button a{
   text-decoration:none;
   color:black;
 }
 
 section.above .left-side .button a .button-press,
-.mypopup .form-container a .button-press{
+.mypopup .form-container a .button-press,
+section.article .button a .button-press{
   -moz-border-radius: 13;
   color: #ffffff;
   background: #00b400;
@@ -382,6 +404,68 @@ section.above .left-side .button a .button-press,
   text-align: center;
 }
 
+}
+
+/******************************************/
+/************* ARTICLE ********************/
+
+@media (max-width:500px){
+
+  section.article{
+    width:60%;
+    margin:5% auto;
+    font-family:'Roboto slab', serif;
+    text-align:center;
+  }
+
+
+  section.article .picture{
+    width:70%;
+    margin:0 auto;
+  }
+
+  section.article h2{
+    font-size:1.6em;
+    font-weight:bold;
+    padding:5%;
+  }
+
+  section.article p{
+    text-align:left;
+    font-size:1.2em;
+    padding-bottom:2%;
+    line-height:25px;
+  }
+}
+
+
+@media (min-width:500px){
+
+  section.article{
+    width:60%;
+    margin:5% auto;
+    font-family:'Roboto slab', serif;
+    overflow:hidden;
+  }
+
+  section.article .picture{
+    float:left;
+    width:35%;
+    padding-right:2%;
+  }
+
+  section.article h2{
+    font-size:1.6em;
+    font-weight:bold;
+    text-align:center;
+    padding:5%;
+  }
+
+  section.article p{
+    font-size:1.2em;
+    padding-bottom:2%;
+    line-height:25px;
+  }
 }
 
 
@@ -1209,7 +1293,8 @@ section.content .left-image .quote{
 
 }
 
-section.content .mbold{
+section.content .mbold,
+.mbold{
   font-weight:bold;
 }
 
@@ -1332,45 +1417,114 @@ section.content .center-image-big{
 }
 
 /********************************/
+/********** CONTACT ************/ 
+
+section.contact {
+}
+
+
+/********************************/
 /************* FOOTER ***********/
+
+@media (max-width:1000px){
 
 footer{
   padding:2% 0;
-  overflow:hidden; 
   background-color:#EFF9FC;
   color:black;
 }
 
 footer .container{
-  width:50%;
+  width:60%;
   margin:0 auto;
   padding:2%;
-  overflow:hidden;
 }
 
 footer ul{
-  padding:0 5%;
-  padding-left:30%;
+  width:80%;
   margin:0 auto;
 }
 
 footer ul li{
+  display:inline;
   list-style:none;
   font-family:'Roboto-Slab', sans-serif;
-  padding:2%;
+  padding:5%;
 }
 
-footer .column{
-  width:50%;
-  float:left;
-}
-
-footer .column a{
+footer a{
   text-decoration:none;
   color:black;
 }
 
+}
 
+@media (max-width:1167px){
+
+footer{
+  padding:2% 0;
+  background-color:#EFF9FC;
+  color:black;
+}
+
+footer .container{
+  width:40%;
+  margin:0 auto;
+  padding:2%;
+}
+
+footer ul{
+  width:70%;
+  margin:0 auto;
+}
+
+footer ul li{
+  display:inline;
+  list-style:none;
+  font-family:'Roboto-Slab', sans-serif;
+  padding:5%;
+}
+
+footer a{
+  text-decoration:none;
+  color:black;
+}
+
+}
+
+
+@media (min-width:1167px){
+
+footer{
+  padding:2% 0;
+  background-color:#EFF9FC;
+  color:black;
+}
+
+footer .container{
+  width:40%;
+  margin:0 auto;
+  padding:2%;
+}
+
+footer ul{
+  width:60%;
+  margin:0 auto;
+}
+
+footer ul li{
+  display:inline;
+  list-style:none;
+  font-family:'Roboto-Slab', sans-serif;
+  padding:5%;
+}
+
+footer a{
+  text-decoration:none;
+  color:black;
+}
+
+}
 
 /***************************************/
 /************ POPUP ********************/
