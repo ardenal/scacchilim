@@ -23,7 +23,7 @@ nav .logo{
 nav ul{
   width:95%;
   margin:0 auto;
-  padding:0 5%;
+  padding:5% 0;
 }
 
 nav ul li{
@@ -61,7 +61,7 @@ nav .logo{
 nav ul{
   width:90%;
   margin:0 auto;
-  padding:5%;
+  padding:5% 0;
 }
 
 nav ul li{
@@ -99,7 +99,7 @@ nav .logo{
 nav ul{
   width:70%;
   margin:0 auto;
-  padding:5%;
+  padding:5% 0;
 }
 
 nav ul li{
