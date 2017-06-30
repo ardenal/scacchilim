@@ -341,7 +341,6 @@ section.article .button a{
 }
 
 section.above .left-side .button a .button-press,
-.mypopup .form-container a .button-press,
 section.article .button a .button-press{
   -moz-border-radius: 13;
   color: #ffffff;
@@ -1567,7 +1566,7 @@ footer a{
 /***************************************/
 /************ POPUP ********************/
 
-@media (max-width:900px){
+@media (max-width:488px){
 .mypopup{
 position: relative;
 background:white;
@@ -1577,12 +1576,20 @@ background:white;
   font-family:'Roboto Slab', sans-serif;
 }
 
-.mypopup .form-container form .button-press{
-  width:80%;
-  margin:3% auto;
-  font-size:0.8em;
-  text-transform:uppercase;
-  letter-spacing: 2px;
+#_form_1_ button[type="submit"]{
+  font-size:0.8em !important;
+}
+
+}
+
+@media (min-width:488px){
+.mypopup{
+position: relative;
+background:white;
+  width: auto;
+  max-width: 90%;
+  margin: 20px auto;
+  font-family:'Roboto Slab', sans-serif;
 }
 }
 
