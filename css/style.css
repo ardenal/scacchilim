@@ -1623,6 +1623,15 @@ section.contact .form-button{
 
 }
 
+/********************************/
+/*********** GRAZIE *************/
+
+section.thanks {
+  width:50%;
+  margin:10% auto;
+  line-height:30px;
+  margin-bottom:30%;
+}
 
 /********************************/
 /************* FOOTER ***********/
