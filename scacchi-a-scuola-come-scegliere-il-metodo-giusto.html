@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific.css">
+    <link rel="stylesheet" href="css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <title>
+      ScacchiLIM - Se collaboro ti ascolto
+    </title>
+    <script src="js/jquery-3.2.1.js" ></script>
+    <script>
+
+$(document).ready(function() {
+
+  $('.open-popup-link').magnificPopup({
+
+    type:'inline',
+    midClick: true
+
+  });   
+
+  /* Every time the window is scrolled ... */
+  $(window).scroll( function(){
+
+    /* Check the location of each desired element */
+    $('.hideme').each( function(i){
+
+      $(this).animate({'opacity':'0'},0); 
+      var bottom_of_object = $(this).position().top + $(this).outerHeight();
+      var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+      /* If the object is completely visible in the window, fade it it */
+      if( bottom_of_window > bottom_of_object ){
+
+        $(this).animate({'opacity':'1'},1000); 
+
+        $(this).addClass('animated bounceIn'); 
+
+      }
+
+    }); 
+
+  });
+
+});
+    </script>
+
+<script type="text/javascript">
+	var _iub = _iub || [];
+	_iub.csConfiguration = {
+		cookiePolicyId: 8162334,
+		siteId: 852759,
+		lang: "it"
+	};
+</script>
+<script type="text/javascript" src= "//cdn.iubenda.com/cookie_solution/safemode/iubenda_cs.js" charset="UTF-8" async></script>
+  </head>
+  <body>
+
+    <nav>
+      <div class="logo">
+        <a href="/">
+          <img src="resources/logo.png" alt="logo" />
+        </a>
+      </div>
+      <ul>
+        <li>
+          <a href="/">
+            Home
+          </a>
+        </li>
+       <li>
+          <a href="blog.html">
+           Blog 
+          </a>
+        </li>
+       <li>
+          <a href="contatti.html">
+            contatti
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="blog">
+      <div class="content">
+        <!--
+      <h1 id="nav">
+        Home > Blog
+      </h1>
+        -->
+
+      <article class="main">
+
+        <img src="resources/blog/chess-3.jpg" alt="scacchi" />
+        <h1>
+          Scacchi a scuola: come scegliere il metodo giusto?
+        </h1>
+        <p>
+        Quando si parla di scacchi a scuola (e si potrebbe dire la stessa cosa per <a href="matematica-senza-frontiere-con-gli-scacchi.html"> altri progetti scolastici</a>), i metodi di insegnamento non mancano: come decidere quale adottare alla luce delle particolari necessit&agrave; di una classe? Perch&eacute; scegliere una metodologia piuttosto che un'altra? In questo articolo espongo alcune considerazioni che possano guidare la scelta.
+        </p>
+
+        <p>
+Ovviamente, essendo ScacchiLIM il primo portale di Scacchi Collaborativi, queste considerazioni sono esattamente le stesse che hanno guidato la creazione del metodo che propone.
+        </p>
+        <h2>
+1 – Il metodo rispetta le circostanze individuali di alunni e docenti?
+        </h2>
+        <p>
+        Il primo elemento da considerare sono le <span class="mbold">circostanze individuali</span> di alunni e docenti. Eh  s&igrave;, anche dei docenti, perch&eacute; &egrave; su di loro che ricade tutta l'organizzazione logistica, ad esempio l'<a href="come-organizzare-orario-laboratorio-di-scacchi-senza-stress.html">organizzazione dell'orario</a>.
+        </p>
+        <p>
+Pi&ugrave; evidente &egrave; invece il fatto che le circostanze individuali degli alunni debbano essere messe al primo posto. Da un punto di vista esclusivamente didattico, questo si traduce nel rispetto dei tempi di apprendimento di ogni ragazzo. Ovviamente, qualunque istruttore &egrave; consapevole che i ragazzi imparano con ritmi differenti. Ma ben altra cosa &egrave; utilizzare un metodo che sia stato pensato per adattarsi ai ritmi di ogni particolare alunno.
+        </p>
+        <h2>
+2 – Il metodo riconosce le circostanze sociali di una classe?
+        </h2>
+        <p>
+Il primo elemento d&agrave; origine al secondo: le circostanze sociali nelle quali gli alunni e i docenti sono immersi. A scuola si studia e si lavora insieme, e le circostanze personali dei singoli alunni hanno un'influenza su compagni di classe e docenti. Da un punto di vista didattico, questo significa che gli studenti partono quasi sempre da livelli di conoscenze e competenze diversi. Ad esempio, in tutte le classi nelle quali ho tenuto il laboratorio di scacchi c'era sempre una decina di alunni che possedeva gi&egrave; alcune nozioni del gioco: tra questi,  alcuni conoscevano già l'arrocco ma nessuno conosceva la presa en-passant.
+        </p>
+        <p>
+Il fatto che gli alunni partano da diversi livelli di partenza &egrave; un potenziale problema che una buona metodologia deve sempre tenere in considerazione. Il rischio di proporre a tutti gli studenti le stesse informazioni &egrave; di annoiare gli alunni che gi&agrave; le conoscono, e questi alunni potrebbero quindi mettersi a disturbare gli altri. D'altro canto, se si va troppo velocemente per portare la classe al livello degli studenti che sono pi&ugrave; avanti, si manca di rispettare i tempi di apprendimento degli studenti che sono partiti pi&ugrave; indietro.
+        </p>
+        <p>
+Questo problema &egrave; il fratello gemello di un altro: fornire feedback personalizzato ad ogni studente. Facendo un rapido calcolo, per fornire feedback personalizzato a 20 o pi&ugrave; studenti durante un laboratorio di 10 ore, un istruttore dovrebbe concedere ad ogni alunno solo 30 minuti della sua attenzione. Questo &egrave; pochissimo, perché quei 30 minuti risultano frammentati su 10 ore, quindi in pratica equivalgono a 3 minuti all'ora. E pensare che ci sono anche classi pi&ugrave; numerose!
+        </p>
+        <p>
+Una buona metodologia deve quindi considerare l'ambiente sociale nel quale si svolge l'apprendimento: una classe di 20 e pi&ugrave; alunni che partono da livelli di conoscenze e abilit&agrave; diversi.
+        </p>
+        <h2>
+3 – Il metodo realizza gli obiettivi formativi pi&ugrave; importanti?
+        </h2>
+        <p>
+Terza considerazione, sono i famosi obiettivi formativi. Ovviamente un laboratorio di scacchi non ha l'obiettivo principale di portare ad acquisire abilit&agrave; nel gioco degli scacchi in quanto tale. Ha invece l'obiettivo di sfruttare questo gioco come tramite per l'acquisizione di una serie di competenze trasferibili ad altre situazioni. 
+        </p>
+        <p>
+Quali dovrebbero essere queste competenze? Parlando con i docenti, che sono probabilmente i migliori testimoni dei progressi e delle sfide che affrontano ogni giorno gli alunni, alcune delle competenze pi&ugrave; importanti da trasmettere ai ragazzi di oggi sono:
+        </p>
+        <ul>
+          <li>le capacità di ascolto e concentrazione</li>
+          <li>il rispetto degli altri (competenze etiche)</li>
+          <li>lo sviluppo del pensiero logico-spaziale</li>
+          <li>la capacità di persistenza</li>
+          <li>le capacità di collaborazione</li>
+        </ul>
+        <p>
+Gli scacchi come gioco permettono di sviluppare molte di queste competenze, ma solo in una dimensione individuale. Essendo come gi&agrave; detto la scuola un luogo in cui si impara e si lavora insieme, una buona metodologia dovrebbe riuscire a portare questi benefici a livello dell'intero gruppo classe. In particolare, le capacit&agrave; di ascolto e collaborazione non vengono per nulla enfatizzate nelle metodologie pi&ugrave; tradizionali, pur essendo fondamentali.
+        </p>
+        <h2>
+4 – Il metodo &egrave; al passo con i tempi?
+        </h2>
+        <p>
+Quarto fattore da considerare &egrave; quanto un metodo sia al passo con i tempi, in particolare alla luce degli ultimi sviluppi nel campo della psicologia positiva e dello sviluppo della personalit&agrave;, ma anche delle ultime innovazioni nel campo delle tecnologie didattiche.
+        </p>
+        <p>
+        Negli ultimi decenni la psicologia ha iniziato a studiare il benessere della persona con la stessa attenzione prima dedicata allo studio degli aspetti patologici. I risultati sono stati una serie di scoperte che hanno il potere di migliorare enormemente l'efficacia delle attivit&agrave; scolastiche, rendendole allo stesso tempo pi&ugrave; divertenti per i ragazzi. Ad esempio, oggi &egrave; possibile allenare la concentrazione in classe sfruttando il fenomeno del<a href="https://it.wikipedia.org/wiki/Flusso_(psicologia)#Flusso_di_gruppo"> flusso di gruppo</a>, scoperto dallo psicologo ungherese Mih&aacute;ly Cs&iacute;kszentmih&aacute;lyi. 
+        </p>
+        <p>
+Allo stesso modo, con l'introduzione delle Lavagne Interattive Multimediali diventa possibile creare quella che gli studiosi dell'intelligenza collettiva definiscono "un'architettura dell'attenzione", un modo di organizzare le informazioni per condividere in modo efficace tutte le idee dei membri di un gruppo.
+        </p>
+        <p>
+Una buona metodologia per introdurre gli scacchi a scuola dovrebbe quindi integrare queste nuove scoperte e sfruttare le possibilit&agrave; offerte da queste nuove tecnologie.
+        </p>
+        <h2>
+5 – Il metodo insegna tutte le regole del regolamento internazionale?
+        </h2>
+        <p>
+Il quinto fattore che vale la pena di considerare, anche se meno importante degli altri, &egrave; l'aderenza al regolamento internazionale del gioco degli scacchi. Infatti come gi&agrave; detto, l'obiettivo di un laboratorio di scacchi a scuola non &egrave; propriamente quello di insegnare a giocare a scacchi, quanto quello di sfruttare il gioco per trasmettere competenze di carattere cognitivo, etico e sociale.
+        </p>
+        <p>
+&Egrave; comunque desiderabile che alla fine del laboratorio gli studenti pi&ugrave; appassionati abbiano le basi per continuare il loro percorso scacchistico in uno dei tanti club presenti sul territorio.
+        </p>
+        <h2>
+Come gli Scacchi Collaborativi seguono queste direttive
+        </h2>
+        <p>
+Come gi&agrave; detto all'inizio dell'articolo, queste cinque considerazioni sono state il fondamento del metodo degli Scacchi Collaborativi, e tutt'ora ne guidano il suo continuo sviluppo.
+        </p>
+        <p>
+In particolare, gli Scacchi Collaborativi:
+        </p>
+        <ul>
+          <li>
+            <p>
+            Rispettano le <span class="mbold">circostanze individuali</span> di alunni e docenti.
+            </p>
+            <p>
+Infatti, gli Scacchi Collaborativi rispettano i tempi di apprendimento di ciascun ragazzo. Gli studenti imparano aiutandosi gli uni con gli altri, e non viene messa alcuna fretta a quelli pi&ugrave; lenti, ma anche nessun freno a quelli più veloci. Questo &egrave; possibile incoraggiando i ragazzi a collaborare per superare delle sfide, ma senza esprimere valutazioni negative sui contributi individuali.
+            </p>
+            <p>
+Non solo, ma non richiedendo la presenza di un istruttore il laboratorio &egrave; flessibile in termini di orario, riducendo cos&igrave; il carico di lavoro dei docenti in fase di programmazione.
+            </p>
+          </li>
+          <li>
+            <p>
+            Riconoscono e si adattano alle<span class="mbold"> cicostanze sociali</span> della classe
+            </p>
+            <p>
+Il fatto che gli studenti partano da livelli di conoscenze e competenze diversi non &egrave; un problema, ma un punto di forza per la metodologia collaborativa. Infatti, dato che i ragazzi imparano aiutandosi tra di loro &egrave; desiderabile che gli studenti possano imparare o insegnare a compagni che si trovano a livelli diversi. In questo modo nessuno si annoia e tutti ricevono feedback personalizzato durante tutta l'attivit&agrave;.
+            </p>
+          </li>
+          <li>
+            <p>
+            Realizzano gli<span class="mbold"> obiettivi formativi</span> richiesti dai docenti
+            </p>
+
+            <p>
+Gli Scacchi Collaborativi si sono specializzati nella trasmissione di abitudini di ascolto e concentrazione in classe perch&eacute; &egrave; quello che hanno chiesto i docenti. Per lo stesso motivo e a differenza dei metodi pi&ugrave; tradizionali, riescono a sviluppare le competenze di cooperazione e lavoro di gruppo. Tutti gli altri obiettivi formativi tipici del gioco degli scacchi restano invariati con uguale forza ed efficacia: gli Scacchi Collaborativi non introducono alcuna variazione alle regole del gioco degli scacchi.
+            </p>
+          </li>
+          <li>
+            <p>
+            Integrano le ultime scoperte di<span class="mbold"> psicologia positiva</span> e sfruttano le<span class="mbold"> nuove tecnologie didattiche</span>
+            </p>
+            <p>
+Come dice il nome, ScacchiLIM fa dell'uso della LIM il suo cavallo di battaglia, sfruttandola per attivare una dinamica di forze collaborative e riuscire cos&igrave; ad amplificare e allenare le capacit&agrave; di ascolto e concentrazione in classe attraverso il fenomeno del flusso di gruppo.
+            </p>
+          </li>
+          <li>
+
+            <p>
+            Aderiscono e insegnano il<span class="mbold"> regolamento internazionale del gioco degli scacchi </span>
+            </p>
+            <p>
+Le sfide collaborative che i ragazzi dovranno affrontare possono essere superate solo grazie alla conoscenza del regolamento internazionale del gioco degli scacchi, che verr&agrave; quindi insegnato in modo divertente e interattivo. In questo modo, gli studenti pi&ugrave; appassionati saranno pronti a continuare ad approfondire il gioco in un club di scacchi presente sul territorio.
+            </p>
+          </li>
+        </ul>
+        <p>
+In conclusione, va detto che nessun metodo &egrave; perfetto, ecco perché sarebbe bene considerare un sesto fattore:
+        </p>
+        <h2>
+Il metodo &egrave; basato sul dialogo?
+        </h2>
+        <p>
+Per mantenere la sua efficacia, un metodo deve evolversi continuamente insieme alle realt&agrave; alle quali si rivolge, in questo caso la scuola. E perch&eacute; questo avvenga, &egrave; necessario dialogare con i protagonisti di quella realt&agrave;, cio&egrave; gli alunni e i docenti.
+        </p>
+        <p>
+Gli Scacchi Collaborativi sono nati dal dialogo con i docenti, gli studenti e i loro genitori, e continueranno a seguire i loro consigli e le loro indicazioni anche in futuro. Alla fine di ogni laboratorio viene distribuito agli studenti un questionario di soddisfazione anonimo nel quale saranno liberi di proporre qualunque idea o esigenza ritengano importante. Queste idee verranno usate per adattare le nuove scoperte e tecnologie al laboratorio di Scacchi Collaborativi. In questo modo sar&agrave; assicurato che il laboratorio di scacchi a scuola diventer&agrave; sempre pi&ugrave; utile, coinvolgente ed efficace.
+        </p>
+      </article>
+
+      </div>
+
+      <div class="left-banner">
+
+        <a href="index.html">
+          <img class="image" src="resources/fumetto.jpg" alt="fumetto" />
+
+        </a>
+        <img class="children" src="resources/boys-3.jpg" alt="cover" />
+        <p>
+        Gli Scacchi Collaborativi educano ad abitudini di ascolto e concentrazione in classe, rispettando i tempi di apprendimento di ciascun alunno 
+        </p>
+
+        <div class="button">
+          <a class="open-popup-link" href="index.html">
+            <div class="hvr-buzz-out button-press">
+              Scopri il metodo
+            </div>
+          </a>
+        </div>
+
+      </div>
+
+
+
+    </section>
+    
+
+    <footer>
+      <div class="container">
+          <ul>
+            <li>
+              <a href="chi-sono.html">
+                Chi Sono
+              </a>
+            </li>
+            <li>
+              <a href="contatti.html">
+                Contatti
+              </a>
+            </li>
+            <li>
+              <a href="https://www.iubenda.com/privacy-policy/8162334">
+                Privacy Policy
+              </a>
+            </li>
+          </ul>
+     </div>
+    </footer>
+
+
+
+
+    <script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-101649139-1', 'auto');
+ga('set', 'anonymizeIp', true);
+ga('send', 'pageview');
+
+    </script>
+  </body>
+</html>
